@@ -1,0 +1,27 @@
+{
+  "name": "policy-number-challenge-boilerplate",
+  "version": "1.0.0",
+  "description": "If you are using the Ruby code, you may need to install gems as required by your implementation. For example:",
+  "main": "parser.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashandrien/policy-number-challenge-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ashandrien/policy-number-challenge-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ashandrien/policy-number-challenge-boilerplate#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
