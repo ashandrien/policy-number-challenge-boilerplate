@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node parser.ts"
   },
   "repository": {
     "type": "git",
@@ -16,12 +17,23 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ashandrien/policy-number-challenge-boilerplate/issues"
   },
   "homepage": "https://github.com/ashandrien/policy-number-challenge-boilerplate#readme",
   "devDependencies": {
-    "jest": "^30.2.0"
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.0.3",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "compilerOptions": {
+    "types": [
+      "node"
+    ]
   }
 }
